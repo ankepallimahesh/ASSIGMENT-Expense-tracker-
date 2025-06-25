@@ -1,0 +1,73 @@
+.outer{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:30px;
+
+}
+.out{
+    display:flex;
+    justify-content: center;;
+}
+.inn{
+    display:flex;
+    flex-direction:column;
+    background-color: black;
+    margin-top:40px;
+    padding:20px;
+    border-radius:15px;                          
+   width:70%;
+}
+.bt{
+    height:55px;
+    border-radius:10px;
+    border:1px solid rgba(232,223,233,0.9);
+    background-color:black;
+    color:white;
+    font-size:large;
+    transition-duration: 0.7s;
+}
+.mes{
+    margin-top:60px;
+
+}
+.bt:hover{
+    height:55px; 
+       font-size:larger;
+
+    border-radius:10px;
+    border:1px solid rgba(232,223,233,0.9);
+    background-color:rgba(242,233,253,1);
+    color:black;
+}
+.inner1{
+    color:white;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-top:-10px;
+
+}
+.inner{
+    margin:5px;
+    background-color: white;
+    color:black;
+    padding:10px;
+    border-radius:10px;
+    transition-duration: 0.4s;
+    font-size:large;
+    text-decoration: none;;
+    
+
+}
+.inner:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+.glassStyle {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
