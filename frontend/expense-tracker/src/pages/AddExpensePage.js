@@ -8,7 +8,7 @@ function AddExpensePage() {
   const [editingExpense, setEditingExpense] = useState(null);
   const location = useLocation();
 
-  const token = localStorage.getItem('token'); // ✅ get token
+  const token = localStorage.getItem('token');
 
   useEffect(() => {
     const queryParams = new URLSearchParams(location.search);
